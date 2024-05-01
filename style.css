@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #252525;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    color: #1389d8;
+    border: none;
+
+    position: absolute;
+    top: calc(50% - 225px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 50px;
+}
+
+.search input {
+    width: 225px;
+    height: 50px;
+    padding: 15px;
+    border: none;
+    border-top-left-radius: 15px;
+    box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+}
+
+.search button {
+    width: 75px;
+    height: 50px;
+    border: none;
+    border-top-right-radius: 15px;
+    box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+}
+
+.search button:hover {
+    background-color:#252525;
+    color: #FFFFFF;
+}
+
+#card {
+    font-size: 16px;
+    height: 390px;
+    width: 300px;
+    padding: 45px 45px;
+    background: #FFFFFF;
+    position: absolute;
+    align-content: center;
+    justify-items: center;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+}
+
+.hp {
+    display: block;
+    gap: 5px;
+    justify-content: center;
+
+    width: 65px;
+    height: 27.5px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding: 5px;
+
+    margin-bottom: 11.5px;
+}
+
+.hp span {
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    font-weight: 300;
+}
+
+.hp div {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#card .image {
+    display: grid;
+    position: absolute;
+}
+
+#card .pokemonSprite {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    height: 100px;
+}
+
+.name {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.id {
+    font-size: 12px;
+    margin-top: 0px;
+    text-align: center;
+}
+.types {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.stats p {
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    gap: 50px;
+}
+
+.personal-info p {
+    font-size: 12px;
+    margin-top: -5px;
+}
